@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+  background: blue;
+  border: 2px inset black;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  margin: 0 auto;
+  border-radius:5px;
+  box-sizing: content-box;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+}
+
+div div {
+  height: 50px;
+  width: 50px; 
+  border: 2px solid black;
+  background:firebrick ;
+  position: absolute;
+}
+
+.hijo1{
+   top:0;
+   left: 0;
+}
+.hijo2{
+    top:0;
+    right:0;
+}
+.hijo3{
+    bottom: 0;
+    right:0;
+}
+.hijo4{
+    left:0;
+    bottom: 0;
+}
+.hijo5{
+    top:0;
+    bottom: 0;
+    right: 0;
+    left:0;
+    margin: auto;
+
+}
