@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background: burlywood;
+}
+.container{
+   width: 500px;
+   height: 500px;
+  
+   background-color:green;
+   margin: 0 auto;
+   overflow:auto;
+}
+
+img{
+    width:200px;
+    height:300px;
+    float: right;
+    margin: 10px;
+    border: 2px solid red;
+
+}
